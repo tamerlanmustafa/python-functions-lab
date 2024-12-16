@@ -111,8 +111,32 @@ print('Exercise 5:', sum_to(6))
 # largest(10, 4, 2) should return 10.
 #
 # Define your function and test it with different inputs.
+
+
+
 def largest(num1, num2, num3):
     return max(num1, num2, num3)
 
 
 print('Exercise 6:', largest(1, 2, 3))
+
+
+# Exercise 7: Calculate a Tip
+#
+# Create a function called `calculate_tip`. It should take the bill amount and the tip percentage (as a whole number).
+# The function should return the amount of the tip.
+#
+# Examples:
+# calculate_tip(50, 20) should return 10.
+#
+# Write your function and test its output below.
+
+
+calculate_tip = lambda bill, tip_rate: int(bill*tip_rate/100)
+
+
+
+print('Exercise 7:', calculate_tip(50, 20))
+
+
+
